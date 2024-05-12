@@ -1,13 +1,13 @@
 function createTable() {
     // Prompt for the number of rows
-    const numRows = parseInt(prompt("Enter the number of rows"));
+    const numRows = parseInt(prompt("Input number of rows"));
     if (isNaN(numRows) || numRows <= 0) {
         alert("Please enter a valid number of rows.");
         return;
     }
 
     // Prompt for the number of columns
-    const numCols = parseInt(prompt("Enter the number of columns"));
+    const numCols = parseInt(prompt("Input number of columns"));
     if (isNaN(numCols) || numCols <= 0) {
         alert("Please enter a valid number of columns.");
         return;
